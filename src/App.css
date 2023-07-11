@@ -1,0 +1,95 @@
+.car {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.car > img {
+  object-fit: cover;
+}
+.car > button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.car > button:hover {
+  background-color: yellow;
+  color: black;
+}
+.parts-container {
+  display: flex;
+  margin: 20px;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  height: 300px;
+}
+.product > img {
+  width: 100%;
+  object-fit: cover;
+  height: 200px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+.btn > button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: none;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.btn > button:hover {
+  background-color: yellow;
+  color: black;
+}
+.drag__image{
+  width:100%;
+  height:80vh;
+  margin:20px; 
+  
+}
+.drag__image >.drag__item >img{
+    width: 100%;
+    object-fit: cover;
+    height: 200px;
+}
+.drag{
+  display:grid;
+  grid-template-columns: .5fr 2fr;
+  height:100vh;
+}
+.drag__space{
+  border-radius: 20px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  height:100vh
+}
+
+.heading{
+  text-align: center;
+  color:gray;
+  font-weight: bold;
+
+}
